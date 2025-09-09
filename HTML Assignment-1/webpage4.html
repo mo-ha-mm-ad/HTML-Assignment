@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Webpage Layout</title>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 2rem;
+    }
+    header, footer {
+        background: #d61b82;
+        color: white;
+        padding: 20px; 
+        text-align: center; 
+    }
+    main { 
+        background: #fafafa; 
+        padding: 20px; 
+        flex: 2;
+        text-align: center;
+    }
+    .container { 
+        display: flex; 
+        min-height: 60vh; 
+    }
+    .left-nav { 
+        padding: 30px;
+        width: 300px; 
+        background: #b9cfe7; 
+    }
+  </style>
+</head>
+<body>
+    <header>
+        Header
+    </header>
+    <div class="container">
+        <nav class="left-nav">
+            Left Navigation
+        </nav>
+        <main>
+            Main Content
+        </main>
+    </div>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>

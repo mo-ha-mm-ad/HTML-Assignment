@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Webpage Layout</title>
+  <style>
+    body {
+        margin: 0; 
+        font-family: Arial, sans-serif;
+        font-size: 2rem;
+    }
+    header, footer {
+        background: #90e89d;
+        padding: 20px; 
+        text-align: center; 
+    }
+    .top-nav { 
+        background: #e5a9a9; 
+        padding: 20px; 
+        text-align: center;
+    }
+    main { 
+        background: #fafafa; 
+        padding: 20px; 
+        flex: 2; 
+        text-align: center;
+    }
+    .container { 
+        display: flex; 
+        min-height: 60vh; 
+    }
+    .left-nav{ 
+        width: 300px; 
+        background: #bce2ed;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        Header
+    </header>
+    <nav class="top-nav">
+        Top Navigation
+    </nav>
+    <div class="container">
+        <nav class="left-nav">
+            Left Navigation
+        </nav>
+        <main>
+            Main Content
+        </main>
+    </div>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>

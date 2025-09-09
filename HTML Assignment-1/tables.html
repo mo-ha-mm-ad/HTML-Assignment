@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Table</title>
+  <style>
+    table {
+      width: 95%;
+      margin: 20px auto;
+      border-collapse: separate; 
+      border-spacing: 10px;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 12px;
+      text-align: center;
+      font-size: 2rem;
+    }
+    th {
+      background-color: #2b6cb0;
+      color: white;
+    }
+    caption {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .inactive {
+      background-color: #ffe6e6;
+    }
+    td.spanned {
+      background-color: #e6f2ff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <caption>Employee Salary Details</caption>
+
+  <tr>
+    <th rowspan="2">Emp ID</th>
+    <th rowspan="2">Name</th>
+    <th rowspan="2">Department</th>
+    <th rowspan="2">Project</th>
+    <th colspan="2">Salary</th> 
+    <th rowspan="2">Status</th>
+  </tr>
+
+
+  <tr>
+    <th>Basic</th>
+    <th>Bonus</th>
+  </tr>
+
+  
+  <tr>
+    <td>201</td>
+    <td>Alice</td>
+    <td rowspan="2" class="spanned">HR</td> 
+    <td>Recruitment</td>
+    <td>30,000</td>
+    <td>5,000</td>
+    <td>Active</td>
+  </tr>
+  <tr>
+    <td>202</td>
+    <td>Bob</td>
+    <td>Payroll</td>
+    <td>28,000</td>
+    <td>4,500</td>
+    <td>Active</td>
+  </tr>
+
+  <tr>
+    <td>203</td>
+    <td>Chitra</td>
+    <td>IT</td>
+    <td rowspan="3" class="spanned">Website Redesign</td> 
+    <td>35,000</td>
+    <td>6,000</td>
+    <td>Active</td>
+  </tr>
+  <tr>
+    <td>204</td>
+    <td>Deepa</td>
+    <td>IT</td>
+    <td>36,000</td>
+    <td>5,500</td>
+    <td>Active</td>
+  </tr>
+  <tr>
+    <td>205</td>
+    <td>Subha</td>
+    <td>IT</td>
+    <td>34,500</td>
+    <td>5,000</td>
+    <td class="inactive">Inactive</td>
+  </tr>
+
+
+  <tr>
+    <td>206</td>
+    <td>Elakkiya</td>
+    <td>Marketing</td>
+    <td>Campaign Planning</td>
+    <td>32,000</td>
+    <td>4,500</td>
+    <td>Active</td>
+  </tr>
+
+  
+  <tr>
+    <td>207</td>
+    <td>Sri</td>
+    <td>Support</td>
+    <td>Customer Support</td>
+    <td>25,000</td>
+    <td>3,000</td>
+    <td class="inactive">Inactive</td>
+  </tr>
+
+</table>
+
+</body>
+</html>

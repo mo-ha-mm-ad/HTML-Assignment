@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 0px;
+    /* border: 4px solid; */
+}
+#outerContainer{
+    height: 100%;
+    width: 1000px;
+    margin: auto;
+    padding: 3px; 
+    border: 15px solid pink;
+}
+#div1{
+    border: 3px solid pink;
+    font-size: 19px;
+    background: rgba(255, 255, 255, 0.2) url(background.jpg) no-repeat 25%;
+    background-size: cover;
+    
+
+}
+#logo{
+    height: 150px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap:30px;
+    margin-bottom: 10px;
+}
+#details{
+    text-align: center;
+    /* border: 1px solid; */
+    margin-bottom: 45px;
+    /* margin-left: px; */
+    /* justify-content: space-between; */
+}
+#photo{
+    height: 150px;
+    width: 100px;
+}
+#grade{
+    margin-top: 50px;
+    border: 1px solid;
+    background-color:  rgb(250, 184, 195);
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+    margin-left: 200px;
+}
+#memohead{
+    margin-left: 5px;
+}
+#memono{
+    /* font-family: 'Roboto Mono', Arial, Helvetica, sans-serif; */
+    font-family: monospace;
+    font-size: 23px;  
+}
+.row { 
+    display: inline-flex; 
+    gap: 20px;
+    /* border: 1px solid black;  */
+    margin-right: 700px;
+    font-size: 23px;
+   
+    /* align-items: left;  */
+}
+.label{ 
+    font-weight: 600; 
+    gap: 20px;
+}
+#row2{
+    display: flex;
+    margin-left: 25px;
+    line-height: 1.5;
+    /* border:1px solid; */
+}
+#lefttable th,td{
+text-align: left;
+border: none;
+}
+#details2{
+    margin-left: 30px;
+}
+#righttable th,td{
+text-align: left;
+}
+#hallticketno{
+    border: 3px solid ;
+    font-family: monospace;
+    font-size: 25px;
+}
+#marks{
+    margin: 20px;
+    background: #fdfdfd;
+}
+#table3{
+    border: 1px solid;
+    background: #fdfdfd;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+#table3 th{
+    border: 1px solid #000;
+    padding: 8px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+#table3 td {
+    border-left: 1px solid;
+    padding: 8px 10px;
+    text-align: center;
+    border-bottom: none;
+}
+#table3 th {
+    font-weight: bold;
+    font-size: 19px;
+} 
+#table3 .credit{
+    width: 15px;
+}
+#table3 td {
+    background: #fff;
+} 
+#table3 .gradeSecured{
+    width: 15px;
+    /* text-align: left; */
+    /* font-size: 17px; */
+}  
+#table3 .courseTitle{
+    text-align: left;
+    font-size: 15px;
+} 
+.tablebottom{
+    padding-top: 20px;
+    padding-bottom: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+#qrcode{
+    margin-left: 200px;
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    transform: translate(100%, -50%);
+    width: 100px; 
+    padding: 5px;
+    
+}
+
+#qrcode img{
+    height: 100%;
+    width: 120px;  
+    display: block; 
+}
+#footer{
+    /* border: 1px solid; */
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    /* margin-bottom: 20px; */
+}
+#footer .highlight{
+    font-size: 25px;
+    font-weight: bold;
+}
+#footer p{
+    font-size: 25px;
+    /* font-weight: bold; */
+}  
+#verification{
+    /* border: 1px solid; */
+    margin-left: 200px;
+    font-size: 18px;
+    /* margin-top: 50px; */
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+}
+#note p{
+    /* border: 1px solid; */
+    font-size: 19px;
+}
+#sign{
+    /* border: 1px solid; */
+    margin-left: 60%;
+
+}
